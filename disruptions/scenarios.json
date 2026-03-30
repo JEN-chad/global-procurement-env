@@ -1,0 +1,31 @@
+[
+    {
+        "name": "port_strike_india",
+        "trigger_step": 8,
+        "min_task": 2,
+        "duration_steps": 5,
+        "affected_suppliers": ["IN_02", "IN_03"],
+        "effect": "unavailable",
+        "description": "Mumbai port strike — IN_02 and IN_03 cannot fulfill orders"
+    },
+    {
+        "name": "war_reroute_eu",
+        "trigger_step": 15,
+        "min_task": 3,
+        "duration_steps": 10,
+        "affected_suppliers": ["EU_01", "EU_02", "FR_01"],
+        "effect": "lead_time_multiplier",
+        "multiplier": 2.5,
+        "description": "EU-India east route blocked — all EU lead times ×2.5"
+    },
+    {
+        "name": "protest_france",
+        "trigger_step": 22,
+        "min_task": 3,
+        "duration_steps": 3,
+        "affected_suppliers": ["FR_01"],
+        "effect": "lead_time_add",
+        "days_added": 14,
+        "description": "French transport strike — FR_01 gets +14 day delay"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "country": "India",
+    "import_duty_rate": 0.18,
+    "gst_rate": 0.12,
+    "carbon_levy_per_ton_usd": 15.0,
+    "max_single_source_usd": 50000,
+    "mandatory_local_content_pct": 0.30,
+    "sanctioned_categories": ["chinese_military_linked", "iran_linked"],
+    "hard_rules": ["no_sanctioned_supplier", "local_content_minimum"],
+    "soft_rules": ["prefer_low_carbon", "prefer_domestic_supplier"]
+}

@@ -1,0 +1,41 @@
+[
+    {"id": "IN_01", "name": "Mumbai Steel Co", "country": "India",
+     "price_usd": 38000, "lead_days": 7, "carbon_tons": 3.5, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "IN_02", "name": "Chennai Chips Ltd", "country": "India",
+     "price_usd": 42000, "lead_days": 5, "carbon_tons": 2.8, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "IN_03", "name": "Delhi Fabrics", "country": "India",
+     "price_usd": 35000, "lead_days": 10, "carbon_tons": 4.0, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "IN_04", "name": "Pune Components", "country": "India",
+     "price_usd": 50000, "lead_days": 4, "carbon_tons": 1.9, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "EU_01", "name": "Berlin Precision GmbH", "country": "EU",
+     "price_usd": 65000, "lead_days": 3, "carbon_tons": 1.2, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "EU_02", "name": "Lyon Textile SA", "country": "EU",
+     "price_usd": 72000, "lead_days": 4, "carbon_tons": 0.8, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "FR_01", "name": "Paris AutoParts", "country": "EU",
+     "price_usd": 68000, "lead_days": 5, "carbon_tons": 1.5, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "US_01", "name": "Texas Steel Corp", "country": "USA",
+     "price_usd": 55000, "lead_days": 6, "carbon_tons": 2.2, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "US_02", "name": "Silicon Valley Chips", "country": "USA",
+     "price_usd": 80000, "lead_days": 2, "carbon_tons": 0.5, "available": true,
+     "sanctioned_category": null},
+
+    {"id": "US_03", "name": "NYC Fabrics Inc", "country": "USA",
+     "price_usd": 62000, "lead_days": 8, "carbon_tons": 1.8, "available": true,
+     "sanctioned_category": null}
+]

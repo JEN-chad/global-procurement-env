@@ -1,0 +1,12 @@
+{
+    "country": "USA",
+    "import_duty_rate": 0.08,
+    "carbon_levy_per_ton_usd": 0.0,
+    "buy_american_threshold_usd": 100000,
+    "buy_american_domestic_pct": 0.50,
+    "ofac_sanctioned_countries": ["Iran", "North Korea", "Russia"],
+    "export_control_applies": true,
+    "sanctioned_categories": ["iran_linked", "north_korea_linked", "russia_linked"],
+    "hard_rules": ["no_ofac_country", "buy_american_above_threshold"],
+    "soft_rules": ["prefer_domestic_supplier", "prefer_low_carbon"]
+}

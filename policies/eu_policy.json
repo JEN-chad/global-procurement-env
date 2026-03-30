@@ -1,0 +1,11 @@
+{
+    "country": "EU",
+    "import_duty_rate": 0.05,
+    "carbon_levy_per_ton_usd": 85.0,
+    "max_carbon_tons_per_order": 3.0,
+    "deforestation_act_applies": true,
+    "gdpr_data_flag": true,
+    "sanctioned_categories": ["russia_linked", "belarus_linked"],
+    "hard_rules": ["no_sanctioned_supplier", "carbon_limit_per_order"],
+    "soft_rules": ["prefer_certified_green", "prefer_eu_supplier"]
+}
