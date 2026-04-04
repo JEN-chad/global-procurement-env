@@ -23,7 +23,9 @@ def evaluate_model(task_id: int, model_path: str, n_episodes: int = 5) -> float:
     return avg
 
 
-BASE_URL = "https://JEN-chad-global-procurement-env.hf.space"
+# BASE_URL = "https://JEN-chad-global-procurement-env.hf.space"
+
+BASE_URL = "http://localhost:7860"  # Update to live HF URL on Day 4
     
 def evaluate_random(task_id: int, n_episodes: int = 5) -> float:
     env = ProcurementGymWrapper(task=task_id, seed=42)
